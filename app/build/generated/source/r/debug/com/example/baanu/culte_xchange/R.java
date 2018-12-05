@@ -563,35 +563,68 @@ public final class R {
     public static final int colorPrimaryDark=0x7f020002;
   }
   public static final class drawable {
-    public static final int ic_launcher_background=0x7f030001;
-    public static final int ic_launcher_foreground=0x7f030002;
-    public static final int logo=0x7f030003;
+    public static final int color=0x7f030001;
+    public static final int ff=0x7f030002;
+    public static final int ic_launcher_background=0x7f030003;
+    public static final int ic_launcher_foreground=0x7f030004;
+    public static final int log=0x7f030005;
+    public static final int logo=0x7f030006;
   }
   public static final class id {
     public static final int barrier=0x7f040000;
     public static final int bottom=0x7f040001;
-    public static final int chains=0x7f040002;
-    public static final int dimensions=0x7f040003;
-    public static final int direct=0x7f040004;
-    public static final int end=0x7f040005;
-    public static final int gone=0x7f040006;
-    public static final int groups=0x7f040007;
-    public static final int invisible=0x7f040008;
-    public static final int left=0x7f040009;
-    public static final int none=0x7f04000a;
-    public static final int packed=0x7f04000b;
-    public static final int parent=0x7f04000c;
-    public static final int percent=0x7f04000d;
-    public static final int right=0x7f04000e;
-    public static final int spread=0x7f04000f;
-    public static final int spread_inside=0x7f040010;
-    public static final int standard=0x7f040011;
-    public static final int start=0x7f040012;
-    public static final int top=0x7f040013;
-    public static final int wrap=0x7f040014;
+    public static final int button=0x7f040002;
+    public static final int button2=0x7f040003;
+    public static final int button3=0x7f040004;
+    public static final int chains=0x7f040005;
+    public static final int dimensions=0x7f040006;
+    public static final int direct=0x7f040007;
+    public static final int editText=0x7f040008;
+    public static final int editText10=0x7f040009;
+    public static final int editText3=0x7f04000a;
+    public static final int editText4=0x7f04000b;
+    public static final int editText5=0x7f04000c;
+    public static final int editText6=0x7f04000d;
+    public static final int editText8=0x7f04000e;
+    public static final int editText9=0x7f04000f;
+    public static final int end=0x7f040010;
+    public static final int gone=0x7f040011;
+    public static final int groups=0x7f040012;
+    public static final int imageButton4=0x7f040013;
+    public static final int imageView=0x7f040014;
+    public static final int imageView2=0x7f040015;
+    public static final int invisible=0x7f040016;
+    public static final int left=0x7f040017;
+    public static final int none=0x7f040018;
+    public static final int packed=0x7f040019;
+    public static final int parent=0x7f04001a;
+    public static final int percent=0x7f04001b;
+    public static final int radioButton=0x7f04001c;
+    public static final int radioButton2=0x7f04001d;
+    public static final int right=0x7f04001e;
+    public static final int spread=0x7f04001f;
+    public static final int spread_inside=0x7f040020;
+    public static final int standard=0x7f040021;
+    public static final int start=0x7f040022;
+    public static final int textView=0x7f040023;
+    public static final int textView10=0x7f040024;
+    public static final int textView11=0x7f040025;
+    public static final int textView2=0x7f040026;
+    public static final int textView3=0x7f040027;
+    public static final int textView4=0x7f040028;
+    public static final int textView5=0x7f040029;
+    public static final int textView6=0x7f04002a;
+    public static final int textView7=0x7f04002b;
+    public static final int textView8=0x7f04002c;
+    public static final int textView9=0x7f04002d;
+    public static final int top=0x7f04002e;
+    public static final int wrap=0x7f04002f;
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;
+    public static final int connexion=0x7f050001;
+    public static final int editprofile=0x7f050002;
+    public static final int inscription=0x7f050003;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f060000;
@@ -602,6 +635,7 @@ public final class R {
   }
   public static final class style {
     public static final int AppTheme=0x7f080000;
+    public static final int NewActionBar=0x7f080001;
   }
   public static final class styleable {
     /**
