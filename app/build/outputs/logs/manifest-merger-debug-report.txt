@@ -1,65 +1,172 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0dff5b6fd7d7157517d7b56e01d948b0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/a3898b9fb4193ab42ad146c2dc0941e6/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/e24be2667174369a047fbfa217928f78/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/cca45abfecbaeae2819b6e613e886f54/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:21:1-36:12
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/ea2defbe2def7f0b6d15915a5844adcf/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/a4b11d721aaa09938ee68dbd58c20134/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/d5d7cb4b0b133d32fe68833d8710e216/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0dff5b6fd7d7157517d7b56e01d948b0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0dff5b6fd7d7157517d7b56e01d948b0/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/a3898b9fb4193ab42ad146c2dc0941e6/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/a3898b9fb4193ab42ad146c2dc0941e6/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/e24be2667174369a047fbfa217928f78/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/e24be2667174369a047fbfa217928f78/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/cca45abfecbaeae2819b6e613e886f54/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/cca45abfecbaeae2819b6e613e886f54/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/ea2defbe2def7f0b6d15915a5844adcf/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/ea2defbe2def7f0b6d15915a5844adcf/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/a4b11d721aaa09938ee68dbd58c20134/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/a4b11d721aaa09938ee68dbd58c20134/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/d5d7cb4b0b133d32fe68833d8710e216/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/d5d7cb4b0b133d32fe68833d8710e216/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:10:9-42
 	android:icon
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:7:9-37
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:8:9-37
 	android:allowBackup
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:12:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:13:9-14:56
+	android:value
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:14:13-52
+	android:name
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:13:20-65
 activity#com.example.baanu.culte_xchange.MainActivity
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0dff5b6fd7d7157517d7b56e01d948b0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0dff5b6fd7d7157517d7b56e01d948b0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/a3898b9fb4193ab42ad146c2dc0941e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/a3898b9fb4193ab42ad146c2dc0941e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/e24be2667174369a047fbfa217928f78/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/e24be2667174369a047fbfa217928f78/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/cca45abfecbaeae2819b6e613e886f54/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/cca45abfecbaeae2819b6e613e886f54/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/ea2defbe2def7f0b6d15915a5844adcf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/ea2defbe2def7f0b6d15915a5844adcf/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/a4b11d721aaa09938ee68dbd58c20134/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/a4b11d721aaa09938ee68dbd58c20134/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/d5d7cb4b0b133d32fe68833d8710e216/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/d5d7cb4b0b133d32fe68833d8710e216/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:21:5-23:58
 INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
@@ -68,3 +175,49 @@ INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 		ADDED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/adamelgamali/culte_Xchange/app/src/main/AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/136f688f42b78534e1503e969d6385e6/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/15fa23a78a7c29c621b40a554b31e5e1/AndroidManifest.xml:40:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b1980e27d5d934faf527132b8d3ecc86/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0aa10dd17252fabe34ea84ed4a611b51/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1716302da3caac76d52dfc55ca35142/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/55f451d7049727f024c92d585d76d648/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/e43e0732c58be7b17af073bb746fd539/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/bab69341f28923f9a141e721e6c05999/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/84f1288a104f36f2037bca3afb3f26cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/1b8d22e0a0b5d30200a994efa4766f53/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/4af19417a11493f4b26ec11d9765b453/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c76c12c2ee770523fb5021c5da3406/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/AndroidManifest.xml:26:9-47

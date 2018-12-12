@@ -1,7 +1,19 @@
 #Internal package file, do not edit.
-#Wed Dec 05 15:18:16 CET 2018
+#Wed Dec 05 16:28:14 CET 2018
+1.base=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/63
+2.path=classes.dex
 0.baseType=DIRECTORY
-0.base=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/0
+3.baseType=DIRECTORY
+2.base=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/66
+3.set=DEX
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=DEX
 0.path=classes.dex
+3.base=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/64
 0.set=DEX
-count=1
+0.base=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/65
+2.baseType=DIRECTORY
+1.path=classes.dex

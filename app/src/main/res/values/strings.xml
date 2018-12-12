@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Culte_Xchange</string>
+    <string name="facebook_app_id">526756641135675</string>
+    <string name="facebook_login_protocol_scheme">fb526756641135675</string>
 </resources>
