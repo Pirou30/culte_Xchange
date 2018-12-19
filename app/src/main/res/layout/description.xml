@@ -14,7 +14,6 @@
         android:textAllCaps="false"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:fontFamily="@font/merriweather_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +27,6 @@
         android:layout_marginRight="18dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="27dp"
-        android:background="@drawable/border"
         android:ellipsize="start"
         android:ems="10"
         android:gravity="center"
@@ -46,7 +44,6 @@
         android:layout_marginBottom="44dp"
         android:layout_marginEnd="31dp"
         android:layout_marginRight="31dp"
-        android:background="@drawable/border"
         android:backgroundTint="@color/pourpre"
         android:text="ADD"
         android:textColor="@color/white"

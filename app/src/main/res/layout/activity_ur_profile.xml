@@ -78,7 +78,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="10"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -114,7 +116,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -150,7 +154,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -186,7 +192,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
 
         </LinearLayout>
@@ -241,7 +249,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -278,7 +288,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Button"
-                tools:text="Modify" />
+                tools:text="Modify"
+                android:background="@color/pourpre"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 

@@ -38,7 +38,9 @@
         android:text="Button"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="403dp"
-        tools:text="Start" />
+        tools:text="Start"
+        android:background="@color/pourpre"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/textView"

@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:contentDescription="@string/logo"
+                android:contentDescription="logo"
                 android:src="@android:drawable/ic_menu_camera" />
 
 
@@ -64,7 +64,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:contentDescription="@string/logo"
+                android:contentDescription="logo"
                 android:src="@android:drawable/ic_menu_mylocation" />
 
             <TextView
@@ -89,7 +89,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:contentDescription="@string/logo"
+                android:contentDescription="logo"
                 android:src="@android:drawable/ic_menu_info_details" />
 
             <TextView
@@ -113,7 +113,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:contentDescription="@string/logo"
+                android:contentDescription="logo"
                 android:src="@android:drawable/ic_dialog_email" />
 
             <TextView
@@ -129,7 +129,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:contentDescription="@string/logo"
+                android:contentDescription="logo"
                 android:src="@android:drawable/ic_notification_clear_all" />
 
         </LinearLayout>

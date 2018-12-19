@@ -143,5 +143,7 @@
         android:layout_height="48dp"
         android:text="Save"
         tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteY="419dp"
+        android:background="@color/pourpre"
+        android:textColor="@color/white"/>
 </android.support.constraint.ConstraintLayout>

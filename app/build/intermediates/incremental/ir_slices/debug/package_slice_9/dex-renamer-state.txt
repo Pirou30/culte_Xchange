@@ -1,4 +1,4 @@
-#Wed Dec 12 15:35:12 CET 2018
+#Wed Dec 19 14:36:54 CET 2018
 base.0=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/61
 path.0=classes.dex
 renamed.0=classes.dex
