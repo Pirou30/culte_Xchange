@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -9,143 +9,233 @@
         android:id="@+id/textView"
         android:layout_width="125dp"
         android:layout_height="33dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="16dp"
         android:text="Inscription"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/mr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/mr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:checked="true"
         android:text="Mr"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="74dp" />
+        app:layout_constraintBottom_toTopOf="@+id/firstname"
+        app:layout_constraintEnd_toStartOf="@+id/firstnameedit"
+        android:onClick="buttonClicked"/>
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/mrs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="74dp"
         android:text="Mrs"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="74dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="buttonClicked"/>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="100dp"
-        android:layout_height="24dp"
+        android:id="@+id/birth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
         android:text="Date of birth"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/dateedit"
+        app:layout_constraintEnd_toStartOf="@+id/dateedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dateedit" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="95dp"
+        android:id="@+id/mail"
+        android:layout_width="0dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
         android:text="Email"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/dateedit"
+        app:layout_constraintEnd_toStartOf="@+id/mailedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lastname" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="95dp"
-        android:layout_height="26dp"
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="16dp"
         android:text="Password"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/passwordedit"
+        app:layout_constraintEnd_toStartOf="@+id/passwordedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/passwordedit" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="105dp"
-        android:layout_height="26dp"
+        android:id="@+id/country"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginStart="16dp"
         android:text="Your country"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/countryedit"
+        app:layout_constraintEnd_toStartOf="@+id/countryedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/countryedit" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="95dp"
-        android:layout_height="26dp"
+        android:id="@+id/lastname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginStart="16dp"
         android:text="Last Name"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/lastnameedit"
+        app:layout_constraintEnd_toStartOf="@+id/lastnameedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lastnameedit" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="98dp"
-        android:layout_height="24dp"
+        android:id="@+id/firstname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="16dp"
         android:text="First Name"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="135dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/firstnameedit"
+        app:layout_constraintEnd_toStartOf="@+id/firstnameedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/firstnameedit" />
 
     <EditText
-        android:id="@+id/editText8"
-        android:layout_width="204dp"
+        android:id="@+id/countryedit"
+        android:layout_width="0dp"
         android:layout_height="27dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="45dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintBottom_toTopOf="@+id/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/country"
+        app:layout_constraintTop_toTopOf="@+id/passwordedit"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText6"
-        android:layout_width="204dp"
-        android:layout_height="27dp"
+        android:id="@+id/mailedit"
+        android:layout_width="170dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toTopOf="@+id/dateedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mail"
+        app:layout_constraintTop_toBottomOf="@+id/lastnameedit" />
 
     <EditText
-        android:id="@+id/editText4"
-        android:layout_width="204dp"
+        android:id="@+id/lastnameedit"
+        android:layout_width="0dp"
         android:layout_height="27dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mailedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lastname"
+        app:layout_constraintTop_toTopOf="@+id/firstnameedit" />
 
     <EditText
-        android:id="@+id/editText3"
-        android:layout_width="204dp"
+        android:id="@+id/firstnameedit"
+        android:layout_width="0dp"
         android:layout_height="27dp"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="61dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="135dp" />
+        app:layout_constraintBottom_toTopOf="@+id/mailedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstname"
+        app:layout_constraintTop_toTopOf="@+id/mrs" />
 
     <EditText
-        android:id="@+id/editText9"
-        android:layout_width="203dp"
+        android:id="@+id/dateedit"
+        android:layout_width="0dp"
         android:layout_height="27dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="date"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="264dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/passwordedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/birth"
+        app:layout_constraintTop_toTopOf="@+id/mailedit" />
 
     <EditText
-        android:id="@+id/editText10"
-        android:layout_width="202dp"
+        android:id="@+id/passwordedit"
+        android:layout_width="0dp"
         android:layout_height="26dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="59dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/mailedit" />
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/register"
         android:layout_width="113dp"
         android:layout_height="48dp"
-        android:text="Register"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="419dp"
+        android:layout_marginBottom="52dp"
         android:background="@color/pourpre"
-        android:textColor="@color/white"/>
+        android:text="Register"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

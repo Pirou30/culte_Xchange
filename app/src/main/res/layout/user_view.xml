@@ -137,7 +137,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/birth"
         android:layout_width="107dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
