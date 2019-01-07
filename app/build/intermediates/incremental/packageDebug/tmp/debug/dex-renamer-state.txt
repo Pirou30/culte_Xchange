@@ -1,4 +1,4 @@
-#Wed Dec 19 15:26:51 CET 2018
+#Mon Jan 07 19:31:15 CET 2019
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/65
-base.2=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/63
-base.1=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/66
-base.0=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/64
+base.3=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/133
+base.2=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/131
+base.1=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/134
+base.0=/Users/adamelgamali/culte_Xchange/app/build/intermediates/transforms/dexMerger/debug/132

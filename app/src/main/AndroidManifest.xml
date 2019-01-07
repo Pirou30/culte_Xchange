@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.baanu.culte_xchange">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,9 +11,9 @@
         android:roundIcon="@drawable/log"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"  />
-
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
         <activity android:name=".FirstPage">
             <intent-filter>
@@ -21,11 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".ContactUsActivity"/>
-        <activity android:name=".Menu"/>
-        <activity android:name=".RatingActivity"/>
-        <activity android:name=".UrProfile"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".Menu" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".UrProfile" />
+        <activity android:name=".inscription" />
+        <activity android:name=".DataBase" />
+        <activity android:name=".MembersSeekingActivity"></activity>
     </application>
 
 </manifest>

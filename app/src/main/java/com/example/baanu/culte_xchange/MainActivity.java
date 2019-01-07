@@ -7,9 +7,15 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -19,6 +25,10 @@ import com.facebook.GraphResponse;
 import com.facebook.login.Login;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -31,7 +41,13 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 public class MainActivity extends Activity {
-
+    private EditText tmail;
+    private EditText tpwd;
+    private Button bconn;
+    private Button bsignup;
+    private FirebaseAuth fauth;
+    private Button signup;
+    private Button connect;
     CallbackManager callbackManager;
     ProgressDialog mDialog;
 
@@ -44,6 +60,49 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.connexion);
+
+        tmail = (EditText) findViewById(R.id.mail_editText);
+        tpwd = (EditText) findViewById(R.id.pwd_editText);
+        bconn = (Button) findViewById(R.id.connect_button);
+        fauth = FirebaseAuth.getInstance();
+
+        signup = (Button) findViewById(R.id.signup);
+
+        bconn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(isEmpty())return;
+                inProgress(true);
+                fauth.signInWithEmailAndPassword(tmail.getText().toString(),tpwd.getText().toString())
+                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                            @Override
+                            public void onSuccess(AuthResult authResult) {
+                                Toast.makeText(MainActivity.this,"User signned in",Toast.LENGTH_LONG).show();
+                                Intent intent=new Intent(MainActivity.this,MembersSeekingActivity.class);
+                            //    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                startActivity(intent);
+                                finish();return;
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        inProgress(false);
+                        Toast.makeText(MainActivity.this,"Sign in failed : " + e.getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+        });
+
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity();
+            }
+        });
+
+
+
         callbackManager= CallbackManager.Factory.create();
         final LoginButton loginButton = (LoginButton)findViewById(R.id.imageButton4);
       //  LoginButton.setReadPermissions(Arrays.asList("public_profile","email","user_birthday","user_friends"));
@@ -74,6 +133,35 @@ public class MainActivity extends Activity {
             }
         });
 
+    }
+
+
+    public void openActivity() {
+        Intent intent = new Intent(this, inscription.class);
+        startActivity(intent);
+    }
+
+
+    private void inProgress(boolean x){
+        if(x){
+            bconn.setEnabled(false);
+            bsignup.setEnabled(false);
+        }else{
+            bconn.setEnabled(true);
+            bsignup.setEnabled(true);
+        }
+    }
+
+    private boolean isEmpty(){
+        if(TextUtils.isEmpty(tmail.getText().toString())){
+            tmail.setError("REQUIRED");
+            return true;
+        }
+        if(TextUtils.isEmpty(tpwd.getText().toString())){
+            tpwd.setError("REQUIRED");
+            return true;
+        }
+        return false;
     }
 
     private void getData(JSONObject object) {

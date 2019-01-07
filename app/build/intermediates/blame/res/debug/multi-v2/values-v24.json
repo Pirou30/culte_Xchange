@@ -4,13 +4,30 @@
             "outputFile": "/Users/adamelgamali/culte_Xchange/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b5a2c6ef8bfcca73648d30eaeb7c336f/res/values-v24/values-v24.xml",
+                    "source": "/Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/443f7be38b9e48eda87acbc8d2d20fed/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
                         "startOffsets": "55,212,347,416,480,549",
                         "endColumns": "156,134,68,63,68,69",
                         "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "/Users/adamelgamali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2ce0ac08c80ecccb735bf953ba69cb81/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
                     }
                 }
             ]
