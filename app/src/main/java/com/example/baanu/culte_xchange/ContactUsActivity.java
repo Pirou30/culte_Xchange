@@ -1,6 +1,7 @@
 package com.example.baanu.culte_xchange;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +11,7 @@ import java.util.regex.*;
 
 public class ContactUsActivity extends Activity {
 
-
+    private Button button;
 
     private static Pattern pattern;
     private static Matcher matcher;
@@ -23,14 +24,23 @@ public class ContactUsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contact_us);
-
-        send = findViewById(R.id.send);
-        fullname=findViewById(R.id.full_name);
-        Mail = findViewById(R.id.mail);
-        message = findViewById(R.id.message);
+        button = (Button) findViewById(R.id.button_menuCU);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity();
+            }
+        });
+        send = (Button) findViewById(R.id.signup);
+        fullname= (EditText) findViewById(R.id.full_name);
+        Mail = (EditText) findViewById(R.id.mail);
+        message = (EditText) findViewById(R.id.message);
 
     }
-
+    public void openActivity() {
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
+    }
     public void sended(View view) {
 
         if (fullname.getText() == null) {

@@ -2,148 +2,142 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="178dp"
-        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
         android:text="Edit your profile"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <RadioButton
-        android:id="@+id/mr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mr"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="74dp" />
-
-    <RadioButton
-        android:id="@+id/mrs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mrs"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="74dp" />
-
-    <TextView
-        android:id="@+id/birth"
-        android:layout_width="100dp"
-        android:layout_height="24dp"
-        android:text="Date of birth"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/mail"
         android:layout_width="95dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:text="Email"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/password"
         android:layout_width="95dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:text="Password"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="310dp" />
-
-    <TextView
-        android:id="@+id/country"
-        android:layout_width="105dp"
-        android:layout_height="26dp"
-        android:text="Your country"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintBottom_toTopOf="@+id/validate"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/lastname"
         android:layout_width="95dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="19dp"
         android:text="Last Name"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstname" />
 
     <TextView
         android:id="@+id/firstname"
         android:layout_width="98dp"
-        android:layout_height="24dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="55dp"
         android:text="First Name"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="135dp" />
-
-    <EditText
-        android:id="@+id/countryedit"
-        android:layout_width="204dp"
-        android:layout_height="27dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/mailedit"
         android:layout_width="204dp"
-        android:layout_height="27dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintStart_toEndOf="@+id/mail" />
 
     <EditText
         android:id="@+id/lastnameedit"
         android:layout_width="204dp"
         android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="19dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintBottom_toTopOf="@+id/mailedit"
+        app:layout_constraintStart_toEndOf="@+id/lastname"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameedit" />
 
     <EditText
         android:id="@+id/firstnameedit"
         android:layout_width="204dp"
         android:layout_height="27dp"
+        android:layout_marginTop="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="135dp" />
-
-    <EditText
-        android:id="@+id/dateedit"
-        android:layout_width="203dp"
-        android:layout_height="27dp"
-        android:ems="10"
-        android:inputType="date"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="264dp" />
+        app:layout_constraintStart_toEndOf="@+id/firstname"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/passwordedit"
         android:layout_width="202dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintBottom_toTopOf="@+id/validate"
+        app:layout_constraintStart_toEndOf="@+id/password" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/validate"
         android:layout_width="113dp"
         android:layout_height="48dp"
-        android:text="Save"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="419dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:background="@color/pourpre"
-        android:textColor="@color/white"/>
+        android:text="@string/save"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="394dp"
+        android:layout_height="0dp"
+        android:background="@color/pourpre"
+        android:text="Menu"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

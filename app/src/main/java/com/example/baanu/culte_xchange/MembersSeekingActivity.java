@@ -36,8 +36,8 @@ public class MembersSeekingActivity extends Activity {
     private FirebaseDatabase database;
     private DatabaseReference ref;
     //private TextView textView;
-    /*private HashMap<String,String> nameCountry=new HashMap<>();
-    private List<HashMap<String,String>> listvue=new ArrayList<>();*/
+    private HashMap<String,String> nameCountry=new HashMap<>();
+    private List<HashMap<String,String>> listvue=new ArrayList<>();
     private ArrayList<String> listCountry=new ArrayList<String>();
     private ArrayList<String> listName=new ArrayList<String>();
     //private List<User> userList = new ArrayList<>();
@@ -77,20 +77,20 @@ public class MembersSeekingActivity extends Activity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, String prevChildKey) {
                     User user = dataSnapshot.getValue(User.class);
-                   /* nameCountry.put(user.getFirstName() + " " + user.getName(),user.getCountry());
+                    nameCountry.put(user.getFirstName() + " " + user.getLastName(),user.getCountry());
                     SimpleAdapter simpleAdapter=new SimpleAdapter(MembersSeekingActivity.this,listvue,R.layout.list_item,new String[]{"First Line","Second Line"},new int[]{R.id.text1,R.id.text2});
-                    Iterator i=nameCountry.entrySet().iterator();
-                    while (i.hasNext()){
+                    Iterator it=nameCountry.entrySet().iterator();
+                    while (it.hasNext()){
                         HashMap<String,String> resultMap=new HashMap<>();
-                        Map.Entry pair=(Map.Entry) i.next();
+                        Map.Entry pair=(Map.Entry) it.next();
                         resultMap.put("First Line",pair.getKey().toString());
                         resultMap.put("Second Line",pair.getValue().toString());
                         listvue.add(resultMap);
-                    }*/
+                    }
 
                     listCountry.add(user.getCountry());
-                    listName.add(user.getFirstName() + " " +user.getName());
-                    //listName.add(user.getFirstName() + " " + user.getName());
+                    listName.add(user.getFirstName() + " " +user.getLastName());
+                    listName.add(user.getFirstName() + " " + user.getLastName());
                     int i=0;
                     while (i<listCountry.size()){
                         if (moreThanOnce(listCountry,i)){
@@ -100,11 +100,11 @@ public class MembersSeekingActivity extends Activity {
                         i++;
                     }
 
-                adapter = new ArrayAdapter<String>(MembersSeekingActivity.this, android.R.layout.simple_list_item_1, listCountry);
-                listView.setAdapter(adapter);
-                Query query = FirebaseDatabase.getInstance().getReference("Utilisateur")
+                //adapter = new ArrayAdapter<String>(MembersSeekingActivity.this, android.R.layout.simple_list_item_1, listCountry);
+                listView.setAdapter(simpleAdapter);
+                /*Query query = FirebaseDatabase.getInstance().getReference("Utilisateur")
                         .orderByChild("Country")
-                        .equalTo("India");
+                        .equalTo("India");*/
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

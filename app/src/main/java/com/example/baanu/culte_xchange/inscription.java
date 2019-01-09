@@ -17,6 +17,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Random;
+
 public class inscription extends Activity {
     private EditText firstname;
     private EditText lastname;
@@ -26,6 +28,7 @@ public class inscription extends Activity {
     private EditText country;
     private Button register;
     private FirebaseAuth fauth;
+    private String UserIdAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,14 +36,23 @@ public class inscription extends Activity {
         firstname = (EditText) findViewById(R.id.firstnameedit);
         lastname = (EditText) findViewById(R.id.lastnameedit);
         email = (EditText) findViewById(R.id.mailedit);
-        password = (EditText) findViewById(R.id.passwordedit);
+        password = (EditText) findViewById(R.id.password);
         birthdate = (EditText) findViewById(R.id.dateedit);
         country = (EditText) findViewById(R.id.countryedit);
-        register =(Button) findViewById(R.id.register);
+        register =(Button) findViewById(R.id.validate);
         fauth = FirebaseAuth.getInstance();
+        UserIdAuth = fauth.getUid();
+        int i = new Random().nextInt();
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-            final DatabaseReference mRef = database.getReference("Utilisateur/User");
+        //final DatabaseReference mRef = database.getReference("Utilisateur/User");
+        final DatabaseReference Fname = database.getReference("Utilisateur/User"+i+"/FirstName");
+        final DatabaseReference Lname = database.getReference("Utilisateur/User"+i+"/LastName");
+        final DatabaseReference Mail = database.getReference("Utilisateur/User"+i+"/Email");
+        final DatabaseReference Pass = database.getReference("Utilisateur/User"+i+"/Password");
+        final DatabaseReference Bday = database.getReference("Utilisateur/User"+i+"/Birthdate");
+        final DatabaseReference Pays = database.getReference("Utilisateur/User"+i+"/Country");
+        final DatabaseReference UID = database.getReference("Utilisateur/User"+i+"/UID");
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +65,19 @@ public class inscription extends Activity {
                                 Toast.makeText(inscription.this,"User registred",Toast.LENGTH_LONG).show();
                                 inProgress(false);
 
-
+                                String fname = firstname.getText().toString();
+                                String lname = lastname.getText().toString();
+                                String mail = email.getText().toString();
+                                String pwd = password.getText().toString();
+                                String bday = birthdate.getText().toString();
+                                String pays = country.getText().toString();
+                                Fname.setValue(fname);
+                                Lname.setValue(lname);
+                                Mail.setValue(mail);
+                                Pass.setValue(pwd);
+                                Bday.setValue(bday);
+                                Pays.setValue(pays);
+                                UID.setValue(UserIdAuth);
 
                                 Intent intent=new Intent(inscription.this,MainActivity.class);
                                 startActivity(intent);

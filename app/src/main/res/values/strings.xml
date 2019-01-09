@@ -1,5 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Culte_Xchange</string>
     <string name="facebook_app_id">526756641135675</string>
     <string name="facebook_login_protocol_scheme">fb526756641135675</string>
+    <string name="first_name">First_name</string>
+    <string name="last_name">Last_name</string>
+    <string name="Your_Country">Your_Country</string>
+    <string name="Password">Password</string>
+    <string name="email">email</string>
+    <string name="Date_of_Birth">Date_Of_Birth</string>
+    <string name="mrs">Mrs</string>
+    <string name="mr">Mr</string>
+    <string name="welcome_message">Welcome to our application!</string>
+    <string name="start">Start!</string>
+    <string name="Modif">Edit Your Profile</string>
+    <string name="save">Save</string>
+    <string name="contrat1">Contract 1</string>
+    <string name="contrat2">Contract 2</string>
+    <string name="contrat3">Contract 3</string>
+    <string name="sign"> Sign </string>
+    <string name="rate"> rate</string>
+    <string name="register">Register</string>
+    <string name="My_contracts"> My Contracts</string>
+    <string name="Profile"> Profile</string>
+    <string name="req"> My Requests</string>
+    <string name="con"> My Contracts</string>
+    <string name="contact"> Contact Us</string>
+    <string name="home"> Home</string>
+    <string name="name"> Name</string>
+    <string name="modify"> Modify</string>
+    <string name="Connect"> Connect</string>
+    <string name="sign_up"> Sign Up</string>
+    <string name="sign_up1"> First connection ? Sign up here !</string>
+    <string name="Add"> Add</string>
+    <string name="rating"> rating...</string>
+    <string name="location"> location</string>
+    <string name="name_first"> Name Firstname</string>
 </resources>

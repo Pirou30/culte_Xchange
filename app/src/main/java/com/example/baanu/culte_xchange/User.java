@@ -2,25 +2,20 @@ package com.example.baanu.culte_xchange;
 
 public class User {
     private String FirstName;
-    private String Name;
+    private String LastName;
     private String Country;
     private String Email;
     private String Password;
-    private String Birthday;
+    private String Birthdate;
 
     public User() {
     }
-    public User (String FirstName,String Name , String Country ,String Email ,String Password,String Birthday){
-        this.FirstName= FirstName;
-        this.Birthday=Birthday;
-        this.Country=Country;
-        this.Email=Email;
-        this.Password=Password;
-        this.Name=Name;
+    public User (String FirstName,String LastName , String Country ,String Email ,String Password,String Birthday){
+
     }
 
-    public String getBirthday() {
-        return Birthday;
+    public String getBirthdate() {
+        return Birthdate;
     }
 
     public String getCountry() {
@@ -35,8 +30,8 @@ public class User {
         return FirstName;
     }
 
-    public String getName() {
-        return Name;
+    public String getLastName() {
+        return LastName;
     }
 
     public String getPassword() {
@@ -48,22 +43,22 @@ public class User {
     }
 
     public void setName(String name) {
-        Name = name;
+        this.LastName = name;
     }
 
     public void setCountry(String country) {
-        Country = country;
+        this.Country = country;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.Email = email;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.Password = password;
     }
 
-    public void setBirthday(String birthday) {
-        Birthday = birthday;
+   public void setBirthdate(String birthday) {
+        this.Birthdate = birthday;
     }
 }

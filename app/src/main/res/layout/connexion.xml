@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:text="Email"
+        android:text="@string/email"
         app:layout_constraintBottom_toBottomOf="@+id/mail_editText"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -38,7 +38,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="18dp"
-        android:text="Password"
+        android:text="@string/Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -52,7 +52,8 @@
         android:layout_marginStart="62dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="@+id/textView9"
@@ -70,6 +71,7 @@
         android:layout_marginTop="54dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/pwd_editText"
         app:layout_constraintEnd_toStartOf="@+id/connect_button"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -85,7 +87,7 @@
         android:layout_marginRight="6dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="63dp"
-        android:text="Connect"
+        android:text="@string/Connect"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/pwd_editText"
@@ -100,7 +102,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
-        android:text="Sign up"
+        android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView11"
@@ -114,7 +116,7 @@
         android:layout_marginBottom="26dp"
         android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
-        android:text="First connection ? Sign up here !"
+        android:text="@string/sign_up1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/signup"
         app:layout_constraintStart_toStartOf="parent" />

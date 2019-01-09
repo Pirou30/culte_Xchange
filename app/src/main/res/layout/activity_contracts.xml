@@ -33,11 +33,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:gravity="center"
-                android:text="Contract1"
+                android:text="@string/contrat1"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/register"
+                android:id="@+id/validate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
@@ -85,7 +85,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:gravity="center"
-                android:text="Contract2"
+                android:text="@string/contrat2"
                 android:textSize="18sp" />
 
             <LinearLayout
@@ -128,7 +128,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:gravity="center"
-                android:text="Contract3"
+                android:text="@string/contrat3"
                 android:textSize="18sp" />
 
             <Button
@@ -137,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:background="@android:color/holo_red_dark"
-                android:text="Sign" />
+                android:text="@string/sign" />
 
             <LinearLayout
                 android:layout_width="137dp"
@@ -162,6 +162,17 @@
         </LinearLayout>
 
     </LinearLayout>
+    <Button
+        android:id="@+id/button_menuC"
+        android:layout_width="394dp"
+        android:layout_height="0dp"
+        android:background="@color/pourpre"
+        android:text="Menu"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
@@ -176,7 +187,7 @@
         android:layout_marginTop="8dp"
         android:background="#9E0E40"
         android:gravity="center_vertical|center"
-        android:text="My Contracts"
+        android:text="@string/My_contracts"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

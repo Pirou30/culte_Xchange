@@ -29,6 +29,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -44,10 +45,8 @@ public class MainActivity extends Activity {
     private EditText tmail;
     private EditText tpwd;
     private Button bconn;
-    private Button bsignup;
     private FirebaseAuth fauth;
     private Button signup;
-    private Button connect;
     CallbackManager callbackManager;
     ProgressDialog mDialog;
 
@@ -105,12 +104,13 @@ public class MainActivity extends Activity {
 
         callbackManager= CallbackManager.Factory.create();
         final LoginButton loginButton = (LoginButton)findViewById(R.id.imageButton4);
-      //  LoginButton.setReadPermissions(Arrays.asList("public_profile","email","user_birthday","user_friends"));
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
               mDialog=new ProgressDialog(MainActivity.this);
               mDialog.setMessage("Retrieving data ...");
+              Intent intent1 = new Intent(MainActivity.this, MembersSeekingActivity.class);
+              startActivity(intent1);
               mDialog.show();
               String accesstoken = loginResult.getAccessToken().getToken();
                 GraphRequest request = GraphRequest.newMeRequest(loginResult.getAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
@@ -145,10 +145,10 @@ public class MainActivity extends Activity {
     private void inProgress(boolean x){
         if(x){
             bconn.setEnabled(false);
-            bsignup.setEnabled(false);
+            signup.setEnabled(false);
         }else{
             bconn.setEnabled(true);
-            bsignup.setEnabled(true);
+            signup.setEnabled(true);
         }
     }
 
@@ -167,7 +167,6 @@ public class MainActivity extends Activity {
     private void getData(JSONObject object) {
         try{
              URL profile_picture = new URL("https://graph.facebook.com/"+object.getString("id"+"/picture?width=250&height=250 "));
-            //Picasso.with(this).load(profile_picture.toString()).into(imgAvatar);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (JSONException e) {
