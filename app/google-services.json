@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "184248576714",
+    "firebase_url": "https://cultexchange-1674c.firebaseio.com",
+    "project_id": "cultexchange-1674c",
+    "storage_bucket": "cultexchange-1674c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184248576714:android:32ac66b1349158e2",
+        "android_client_info": {
+          "package_name": "com.example.baanu.culte_xchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184248576714-5fmq9n8a5haflcjke52acv4ft3bv27sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baanu.culte_xchange",
+            "certificate_hash": "f9faff75f32cd0df7e3eb7f2d3e0b8dfe74b4600"
+          }
+        },
+        {
+          "client_id": "184248576714-43vncb63hv0m6k0nddp6ufjqpbf3im9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA15rCXUDbCIPgNiZtmyLFBSERbX3Qc51k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184248576714-vjt23fa6fgq6tt8eubgc6o2qh0jcfjie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
